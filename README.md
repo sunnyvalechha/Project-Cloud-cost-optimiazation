@@ -108,7 +108,7 @@ Note: This time the function succeed but does not delete the snapshot because th
 ![image](https://github.com/sunnyvalechha/Project-Cloud-cost-optimiazation/assets/59471885/6fe70174-ad4f-4e04-89d5-582b9e01a2fb)
 
 
-
+Note: In a Production environment we can customize this policy as, delete an snapshot which is not used since last 30 days and not associated with any volume and once we get the information we can send email to the team that everyone should in sync about that stale volume and snapshots.
 
 
 
