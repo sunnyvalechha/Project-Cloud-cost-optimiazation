@@ -110,7 +110,19 @@ Note: This time the function succeed but does not delete the snapshot because th
 
 Note: In a Production environment we can customize this policy as, delete an snapshot which is not used since last 30 days and not associated with any volume and once we get the information we can send email to the team that everyone should in sync about that stale volume and snapshots.
 
+Walk through of code **How to get the python code - BOTO 3**
 
+https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+
+First our requirement is:
+    list all snapshots
+    list all volumes
+    list all ec2 instance
+    verify if the snapshot belongs to a volume or volume belongs to an instance
+
+In Boto3 document, search for Ec2 examples > Managing Ec2 instances > Examples
+We can take help of any AI tool to modiy the code as per our need
+    
 
 
   
