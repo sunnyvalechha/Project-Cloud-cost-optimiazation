@@ -10,9 +10,9 @@ The Lambda function fetches all EBS snapshots owned by the same account ('self')
 
 **Code**
 
-import boto3
+    import boto3
 
-def lambda_handler(event, context):
+    def lambda_handler(event, context):
     ec2 = boto3.client('ec2')
 
     # Get all EBS snapshots
